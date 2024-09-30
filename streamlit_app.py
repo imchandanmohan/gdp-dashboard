@@ -42,7 +42,7 @@ def get_gdp_data():
     # - Country Name
     # - Country Code
     # - Year
-    # - GDP
+    # - GDP Growth
     #
     # So let's pivot all those year-columns into two: Year and GDP
     gdp_df = raw_gdp_df.melt(
